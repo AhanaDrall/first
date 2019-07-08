@@ -1,0 +1,115 @@
+.carousal, ul{
+    height: 300px;
+}
+
+.carousal{
+    position:static;
+    width:600px;
+    
+    margin:auto;
+    overflow:hidden;
+    margin-top:80px;
+   /* box-shadow: 10px 10px 15px rgba(0,0,0,0.50);*/
+}
+.carousal li{
+  /*  display:inline-block;*/
+    height: 300px;
+    float: left;
+    position:static;
+    width: 600px;
+    
+}
+.carousal ul{
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 9000px;
+    list-style: none;
+    margin-left: -50px;
+    transition: : left -3s linear;
+    -moz-transition: left -3s linear;
+    -o-transition: left -3s linear;
+    -webkit-transition: left -3s linear;
+    
+}
+.carousal-container{
+    margin: : 0 auto;
+    padding: 0;
+    width:600px;
+    
+}
+
+.carousal-container img{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.carousal ul{
+     animation: slide-animation 15s infinite;
+}
+.carousal ul:hover{
+    animation-play-state:running;
+    
+}
+@keyframes slide-animation{
+    20%{left: 0}
+    25%{left: -600px}
+    45%{left: -600px}
+    50%{left: -1200px}
+    70%{left: -1200px}
+    75%{left: -1800px}
+    98%{left: -1800px}
+    100%{left:0}
+}
+
+
+h2{
+    color:cornflowerblue;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px darkblue;
+    font-family: 'Permanent+Marker'
+
+}
+body{ 
+    background-color: antiquewhite;
+    background-image:url(backn8.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+text-align:center;}
+h1 {
+     color:white;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    
+    text-align: center;
+    font-family: 'Architects+Daughter';
+}
+/*.square{
+        width: 100px;
+        height: 100px;
+        background-color:brown;
+    margin: auto;
+}*/
+.container{
+        
+        font-family: cursive;
+        color:floralwhite;
+    
+}
+.borderimg 
+{
+    border-radius: 50%;
+    width: 500px;
+    height:500px;
+}
+img{
+    max-width: 100%;
+    max-height: auto;
+    padding: 5px;
+    opacity:1;
+}
+ul>li{
+    font-family: 'Architects+Daughter';
+    color:antiquewhite;
+}
+
